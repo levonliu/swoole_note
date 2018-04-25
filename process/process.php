@@ -13,7 +13,7 @@
 #首先创建进程对应的执行函数
 function doProcess(swoole_process $worker)
 {
-    echo "PID".$worker->pid."\n";
+    echo "PID: ".$worker->pid."\n";
     sleep(10);
 }
 
